@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+header {
+  background-color: black;
+  background-size: cover;
+  min-height: 330px;
+  height: 50%;
+}
+
+.todo {
+  margin-top: -260px;
+  position: relative;
+  z-index: 1;
+}
+
+.todo-container,
+.todo-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px 30px;
+}
+
+.todo-top h1 {
+  font-size: 60px;
+  font-weight: 340;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+
+.todo-content {
+  position: relative;
+  background-color: #fafafa;
+  border-radius: 5px;
+  box-shadow: 1px 3px 3px rgba(51, 29, 29, 0.7);
+  color: black;
+  padding: 15px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #9e9da3;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.todo-controller {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-btn > .btn {
+  margin-right: 5px;
+}
